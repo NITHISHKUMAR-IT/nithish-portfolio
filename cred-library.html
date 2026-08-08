@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="NITHISHKUMAR K credential library - AWS certificates, badges and database learning proof.">
+  <title>Cred Library — NITHISHKUMAR K</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cred-library-page">
+
+  <div class="cloud-cursor" id="cloudCursor" aria-hidden="true">
+    <div class="cloud-shell" id="cloudShell">
+      <svg viewBox="0 0 64 44" aria-hidden="true">
+        <path class="cloud-outline"
+          d="M18 34 H46 C53 34 58 29 58 23 C58 17 53 12 47 12 C45 6 40 3 34 3 C27 3 22 7 20 13 C13 13 7 18 7 25 C7 30 12 34 18 34Z"/>
+      </svg>
+    </div>
+    <div class="cloud-dot"></div>
+    <div class="cloud-label" id="cloudLabel">OPEN</div>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html">
+      <span class="brand-box">NK</span>
+      <span class="brand-copy"><b>NITHISHKUMAR K</b><small>CREDENTIAL LIBRARY</small></span>
+    </a>
+    <nav class="nav cred-page-nav">
+      <a href="index.html">PORTFOLIO</a>
+      <a href="#library">ALL CREDENTIALS</a>
+    </nav>
+    <a class="header-cta" href="index.html#contact">LET'S TALK ↗</a>
+  </header>
+
+  <main>
+    <section class="cred-library-hero">
+      <div class="section-label">CRED LIBRARY / VERIFIED LEARNING</div>
+      <h1>CERTIFICATES,<br><span>BADGES & PROOF.</span></h1>
+      <p>
+        AWS training certificates, digital badges and verified database learning credentials collected in one place.
+      </p>
+      <div class="cred-library-stats">
+        <div><span>LIBRARY</span><b id="libraryCount">0</b><small>credentials</small></div>
+        <div><span>FOCUS</span><b>AWS</b><small>cloud / devops</small></div>
+        <div><span>PROOF</span><b>PDF + BADGE</b><small>direct evidence</small></div>
+      </div>
+    </section>
+
+    <section class="section cred-library-full" id="library">
+      <div class="cred-library-toolbar">
+        <div>
+          <div class="section-label">ALL CREDENTIALS</div>
+          <h2>LEARNING EVIDENCE</h2>
+        </div>
+        <input id="credSearch" class="cred-search" type="search" placeholder="Search AWS, networking, database...">
+      </div>
+      <div class="cred-library-grid" id="credLibraryGrid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <div class="credential-modal" id="credentialModal" hidden>
+    <div class="credential-modal-backdrop" data-close-credential></div>
+    <div class="credential-modal-card" role="dialog" aria-modal="true" aria-labelledby="credentialModalTitle">
+      <button class="credential-modal-close" type="button" data-close-credential>×</button>
+      <div class="credential-modal-media" id="credentialModalMedia"></div>
+      <div class="credential-modal-copy">
+        <span id="credentialModalIssuer"></span>
+        <h2 id="credentialModalTitle"></h2>
+        <div class="credential-modal-actions" id="credentialModalActions"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-signoff">
+      <div class="footer-name">CRED LIBRARY</div>
+      <div class="footer-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 · NITHISHKUMAR K</span>
+      <a href="index.html">BACK TO PORTFOLIO ↑</a>
+      <span>LEARN · VERIFY · BUILD</span>
+    </div>
+  </footer>
+
+  <script src="credentials-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
