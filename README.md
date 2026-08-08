@@ -1,172 +1,105 @@
-# NITHISHKUMAR K — Cloud & DevOps Portfolio ☁️
+# Nithishkumar K ☁️
+### Aspiring Cloud & DevOps Engineer
 
-Personal portfolio showcasing my hands-on learning, projects, credentials, and progress toward becoming an industry-ready Cloud / AWS professional.
+Final-year B.Tech Information Technology student focused on building practical skills in **AWS, Cloud Infrastructure, DevOps, Linux, Docker, and Automation**.
 
-## 👨‍💻 About Me
-
-I'm Nithishkumar K, a final-year B.Tech Information Technology student with a strong interest in Cloud Computing, AWS, DevOps, Linux, and Infrastructure Automation.
-
-I focus on learning cloud technologies through practical implementation rather than theory alone.
-
-> Aspiring Cloud & DevOps Engineer | AWS | Linux | Docker | Python | Infrastructure
+This portfolio documents my hands-on projects, technical learning, and verified credentials as I work toward an entry-level **Cloud / AWS / DevOps** role.
 
 ---
 
-## 🚀 Portfolio Features
+## ☁️ Cloud & DevOps
 
-- Responsive personal portfolio
-- Cloud-inspired interactive UI
-- Custom cloud cursor
-- Projects showcase
-- AWS & DevOps skill showcase
-- Dedicated Credential Library
-- Certificates & digital badges
-- Resume integration
-- Social/contact links
-- Secure Admin Dashboard
-- Passwordless Email OTP authentication
-- Portfolio content management
-- Mobile / Tablet / Desktop responsive design
+**AWS**
+`IAM` `EC2` `S3` `VPC` `RDS` `DynamoDB` `Lambda` `CloudWatch` `CloudFormation` `EBS` `EFS` `ALB` `Auto Scaling`
+
+**DevOps & Infrastructure**
+`Linux` `Git` `GitHub` `Docker` `Nginx` `Infrastructure as Code`
+
+**Programming & Database**
+`Python` `SQL` `PostgreSQL`
 
 ---
 
-## 🔐 Admin Dashboard
+## 🚀 Featured Work
 
-The portfolio includes a dedicated admin interface for managing portfolio content.
+### Highly Available 3-Tier Web Application on AWS
+Production-inspired AWS architecture using:
 
-Authentication is implemented using passwordless Email OTP.
+**ALB → Auto Scaling EC2 → RDS**
 
-### Admin Capabilities
+Designed around high availability, private networking, security groups, monitoring, and scalable infrastructure.
 
-- Secure OTP login
-- Manage profile information
-- Add / update / remove projects
-- Manage credentials
-- Manage certificates and badges
-- Update resume information
-- Manage social links
-- Update portfolio settings
-
----
-
-## 🏆 Cred Library
-
-A dedicated credential library contains my:
-
-- AWS training certificates
-- AWS digital badges
-- Cloud learning achievements
-- Database learning credentials
-- DevOps learning proof
-
-### Featured Credentials
-
-**AWS Cloud Quest — Cloud Practitioner**
-
-**AWS SimuLearn — Cloud Practitioner**
-
-**Serverless Knowledge Badge Assessment**
-
-**Databases for Developers: Foundations — Certificate of Excellence**
-
-The complete collection is available through the portfolio's **Cred Library**.
-
----
-
-## ☁️ Cloud & DevOps Skills
-
-### AWS
-
-- IAM
-- EC2
-- S3
-- VPC
-- Security Groups
-- Elastic Load Balancing
-- Auto Scaling
-- CloudWatch
-- CloudFormation
-- EBS
-- EFS
-- RDS
-- DynamoDB
-- Lambda
-
-### DevOps & Infrastructure
-
-- Linux
-- Git
-- GitHub
-- Docker
-- Nginx
-- Infrastructure as Code
-- Basic Shell Scripting
-
-### Programming & Database
-
-- Python
-- SQL
-- PostgreSQL
-
----
-
-## 🛠️ Hands-On Projects
-
-Portfolio projects include practical implementations involving:
-
-- AWS S3 Static Website Hosting
-- EC2 Web Application Deployment
-- Docker + Nginx Web Hosting
-- Infrastructure as Code with AWS CloudFormation
-- Highly Available AWS Architecture
-- Cloud Security & AI Security Research
-
-### 🛡️ ActionShield AI
-
+### ActionShield AI
 **Intent-Aware Runtime Validation and Safe Execution of Autonomous Cloud Agent Actions Against Prompt Injection**
 
-A research-oriented AI and Cloud Security project focused on protecting autonomous cloud agents from unsafe or malicious actions caused by prompt injection.
+Research-oriented project combining:
+
+`AI Security` `Cloud Security` `Agentic AI` `Zero Trust` `Runtime Authorization`
+
+### AWS Hands-On Projects
+
+- Static Website Hosting using Amazon S3
+- Web Application Deployment using EC2 + Nginx
+- Dockerized Web Application using Docker + Nginx
+- Infrastructure as Code using AWS CloudFormation
 
 ---
 
-## 🧰 Technology Stack
+## 🏆 Credentials
 
-**Frontend**
+My portfolio includes a dedicated **Cred Library** containing AWS training certificates, digital badges, database credentials, and learning proof.
 
-- HTML5
-- CSS3
-- JavaScript
+Featured credentials include:
 
-**Authentication / Backend Services**
-
-- Supabase Authentication
-- Email OTP
-
-**Deployment & Version Control**
-
-- Git
-- GitHub
-- Vercel
+- AWS Cloud Quest — Cloud Practitioner
+- AWS SimuLearn — Cloud Practitioner
+- Serverless Knowledge Badge Assessment
+- Databases for Developers: Foundations — Certificate of Excellence
 
 ---
 
-## 📂 Project Structure
+## 🔐 Portfolio Admin System
 
-```text
-portfolio/
-│
-├── index.html
-├── admin.html
-├── cred-library.html
-│
-├── styles.css
-├── app.js
-├── admin.js
-├── credentials-data.js
-│
-├── assets/
-│   ├── images/
-│   ├── credentials/
-│   └── other portfolio assets/
-│
-└── README.md
+The portfolio includes a custom admin dashboard with **passwordless Email OTP authentication**.
+
+The admin interface is designed to manage:
+
+- Profile information
+- Projects
+- Credentials
+- Resume
+- Social links
+- Portfolio settings
+
+---
+
+## 🛠️ Portfolio Tech Stack
+
+| Area | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Authentication | Supabase Auth |
+| Authentication Method | Email OTP |
+| Version Control | Git & GitHub |
+| Deployment | Vercel |
+| Design | Responsive Cloud-inspired UI |
+
+---
+
+## 🎯 Current Focus
+
+I am currently strengthening my practical skills in:
+
+**AWS Architecture • Cloud Infrastructure • DevOps • Linux • Docker • Python • Infrastructure Automation**
+
+My goal is to become industry-ready for **Cloud Engineer, AWS Cloud, Cloud Support, and Junior DevOps** opportunities.
+
+---
+
+## 👨‍💻 Nithishkumar K
+
+**Final-Year B.Tech Information Technology Student**
+
+Aspiring **Cloud & DevOps Engineer**
+
+> Building. Breaking. Debugging. Learning. Repeating. ☁️
